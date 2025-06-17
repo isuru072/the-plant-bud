@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Snake Plant",
+    "scientificName": "Sansevieria trifasciata",
+    "nextWatering": "2025-06-18T10:00:00Z",
+    "token": "FCM_TOKEN_1"
+  },
+  {
+    "name": "Peace Lily",
+    "scientificName": "Spathiphyllum",
+    "nextWatering": "2025-06-18T10:05:00Z",
+    "token": "FCM_TOKEN_2"
+  },
+  {
+    "name": "Spider Plant",
+    "scientificName": "Chlorophytum comosum",
+    "nextWatering": "2025-06-18T10:10:00Z",
+    "token": "FCM_TOKEN_3"
+  },
+  {
+    "name": "Aloe Vera",
+    "scientificName": "Aloe barbadensis miller",
+    "nextWatering": "2025-06-18T10:15:00Z",
+    "token": "FCM_TOKEN_4"
+  },
+  {
+    "name": "Pothos",
+    "scientificName": "Epipremnum aureum",
+    "nextWatering": "2025-06-18T10:20:00Z",
+    "token": "FCM_TOKEN_5"
+  },
+  {
+    "name": "ZZ Plant",
+    "scientificName": "Zamioculcas zamiifolia",
+    "nextWatering": "2025-06-18T10:25:00Z",
+    "token": "FCM_TOKEN_6"
+  },
+  {
+    "name": "Rubber Plant",
+    "scientificName": "Ficus elastica",
+    "nextWatering": "2025-06-18T10:30:00Z",
+    "token": "FCM_TOKEN_7"
+  },
+  {
+    "name": "Money Plant",
+    "scientificName": "Pilea peperomioides",
+    "nextWatering": "2025-06-18T10:35:00Z",
+    "token": "FCM_TOKEN_8"
+  },
+  {
+    "name": "Boston Fern",
+    "scientificName": "Nephrolepis exaltata",
+    "nextWatering": "2025-06-18T10:40:00Z",
+    "token": "FCM_TOKEN_9"
+  },
+  {
+    "name": "Areca Palm",
+    "scientificName": "Dypsis lutescens",
+    "nextWatering": "2025-06-18T10:45:00Z",
+    "token": "FCM_TOKEN_10"
+  }
+]
