@@ -5,6 +5,7 @@ dotenv.config();
 import express from 'express';
 import { scheduleWateringCheck } from './services/schedule.js';
 import { uploadPlants } from './services/firebase-service.js';
+import serverless from 'serverless-http';
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -25,3 +26,8 @@ app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
   scheduleWateringCheck(); // Start scheduler
 });
+
+
+// module.exports.handler = serverless(app);
+export const handler = serverless(app); // Export for serverless environments
+export default app; // Export for local testing
