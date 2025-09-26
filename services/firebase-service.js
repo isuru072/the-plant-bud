@@ -29,7 +29,7 @@ function sendPushNotification(token, title, body) {
     .catch((err) => console.error("Error sending notification:", err));
 }
 
-async function getPlantsFromFirebase() {
+async function getPlants() {
   const snapshot = await db.collection("plants").get();
   return snapshot.docs.map((doc) => doc.data());
 }
@@ -41,10 +41,14 @@ async function uploadPlants() {
 
     const batch = db.batch();
 
-    plants.forEach((plant) => {
-      const docRef = db.collection("plants").doc(); // auto-generated ID
-      batch.set(docRef, plant);
-    });
+   const formattedPlant = {
+        ...plants,
+        nextWatering: plants.nextWatering
+          ? admin.firestore.Timestamp.fromDate(new Date(plants.nextWatering))
+          : null,
+      };
+
+      batch.set(docRef, formattedPlant);
 
     await batch.commit();
     console.log("✅ Successfully uploaded all plants to Firestore!");
@@ -53,4 +57,4 @@ async function uploadPlants() {
   }
 }
 
-export { sendPushNotification, getPlantsFromFirebase, uploadPlants };
+export { sendPushNotification, getPlants, uploadPlants };

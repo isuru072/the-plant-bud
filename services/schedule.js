@@ -1,12 +1,12 @@
 import {
   sendPushNotification,
-  getPlantsFromFirebase,
+  getPlants,
 } from "./firebase-service.js";
 import cron from "node-cron";
 
 // Instead of running cron inside serverless, expose a function
 export async function scheduleWateringCheck() {
-  const plants = await getPlantsFromFirebase();
+  const plants = await getPlants();
   const now = new Date();
 
   console.log("Checking plants for watering...");
