@@ -22,26 +22,12 @@ app.post('/upload-plants', async (req, res) => {
   }
 });
 
-app.get('/run-schedule', async (req, res) => {
-  try {
-    await scheduleWateringCheck();
-    res.status(200).json({ success: true, message: 'Watering check executed ✅' });
-  } catch (error) {
-    console.error('❌ Schedule error:', error);
-    res.status(500).json({ success: false, error: error.message });
-  }
+app.listen(port, () => {
+  console.log(`Server running on http://localhost:${port}`);
+  scheduleWateringCheck(); // Start scheduler
 });
 
 
-
-// // only run listen() if not in serverless (local dev mode)
-// if (process.env.NODE_ENV !== 'production') {
-//   const port = process.env.PORT || 3000;
-//   app.listen(port, () => {
-//     console.log(`🚀 Local server running at http://localhost:${port}`);
-//     scheduleWateringCheck();
-//   });
-// }
-
-//export const handler = serverless(app); // Export for serverless environments
+// module.exports.handler = serverless(app);
+export const handler = serverless(app); // Export for serverless environments
 export default app; // Export for local testing

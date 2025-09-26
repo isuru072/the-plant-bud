@@ -1,5 +1,5 @@
 import admin from "firebase-admin";
-import serviceAccount from '../serviceAccountKey.json' with { type: 'json' };
+//import serviceAccount from '../serviceAccountKey.json' with { type: 'json' };
 import path from "path";
 import { fileURLToPath } from "url";
 import fs from "fs";
@@ -42,7 +42,7 @@ async function uploadPlants() {
     const batch = db.batch();
 
     plants.forEach((plant) => {
-      const docRef = db.collection("plants").doc(); 
+      const docRef = db.collection("plants").doc(); // auto-generated ID
       batch.set(docRef, plant);
     });
 
