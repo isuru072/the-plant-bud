@@ -34,14 +34,14 @@ app.get('/run-schedule', async (req, res) => {
 
 
 
-// only run listen() if not in serverless (local dev mode)
-if (process.env.NODE_ENV !== 'production') {
-  const port = process.env.PORT || 3000;
-  app.listen(port, () => {
-    console.log(`🚀 Local server running at http://localhost:${port}`);
-    scheduleWateringCheck();
-  });
-}
+// // only run listen() if not in serverless (local dev mode)
+// if (process.env.NODE_ENV !== 'production') {
+//   const port = process.env.PORT || 3000;
+//   app.listen(port, () => {
+//     console.log(`🚀 Local server running at http://localhost:${port}`);
+//     scheduleWateringCheck();
+//   });
+// }
 
 export const handler = serverless(app); // Export for serverless environments
 export default app; // Export for local testing
