@@ -7,9 +7,9 @@ import fs from "fs";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// const serviceAccount = JSON.parse(
-//   Buffer.from(process.env.FIREBASE_SERVICE_KEY, "base64").toString("utf8")
-// );
+const serviceAccount = JSON.parse(
+  Buffer.from(process.env.FIREBASE_SERVICE_KEY, "base64").toString("utf8")
+);
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
