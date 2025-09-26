@@ -41,14 +41,19 @@ async function uploadPlants() {
 
     const batch = db.batch();
 
-   const formattedPlant = {
-        ...plants,
-        nextWatering: plants.nextWatering
-          ? admin.firestore.Timestamp.fromDate(new Date(plants.nextWatering))
+    plants.forEach((plant) => {
+      const docRef = db.collection("plants").doc(); // auto-generated ID
+
+      // Convert `nextWatering` if it exists
+      const formattedPlant = {
+        ...plant,
+        nextWatering: plant.nextWatering
+          ? admin.firestore.Timestamp.fromDate(new Date(plant.nextWatering))
           : null,
       };
 
       batch.set(docRef, formattedPlant);
+    });
 
     await batch.commit();
     console.log("✅ Successfully uploaded all plants to Firestore!");
