@@ -43,5 +43,5 @@ app.get('/run-schedule', async (req, res) => {
 //   });
 // }
 
-export const handler = serverless(app); // Export for serverless environments
+//export const handler = serverless(app); // Export for serverless environments
 export default app; // Export for local testing
