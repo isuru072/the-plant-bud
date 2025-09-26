@@ -3,60 +3,70 @@
     "name": "Snake Plant",
     "scientificName": "Sansevieria trifasciata",
     "nextWatering": "2025-06-18T10:00:00Z",
-    "token": "FCM_TOKEN_1"
+    "token": "FCM_TOKEN_1",
+    "imageUrl":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzRjOBEVmAhnKdOsNSmO5__f-_H7yXWaTRmVkUgB2MmChhrwCTParEpbxf3vxf6MH3SNzwQo_gLFIKXo0SwCywls4sZV-uPB2kVTcQFKfE6Q"
   },
   {
     "name": "Peace Lily",
     "scientificName": "Spathiphyllum",
     "nextWatering": "2025-06-18T10:05:00Z",
-    "token": "FCM_TOKEN_2"
+    "token": "FCM_TOKEN_2",
+      "imageUrl":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzRjOBEVmAhnKdOsNSmO5__f-_H7yXWaTRmVkUgB2MmChhrwCTParEpbxf3vxf6MH3SNzwQo_gLFIKXo0SwCywls4sZV-uPB2kVTcQFKfE6Q"
   },
   {
     "name": "Spider Plant",
     "scientificName": "Chlorophytum comosum",
     "nextWatering": "2025-06-18T10:10:00Z",
-    "token": "FCM_TOKEN_3"
+    "token": "FCM_TOKEN_3",
+      "imageUrl":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzRjOBEVmAhnKdOsNSmO5__f-_H7yXWaTRmVkUgB2MmChhrwCTParEpbxf3vxf6MH3SNzwQo_gLFIKXo0SwCywls4sZV-uPB2kVTcQFKfE6Q"
   },
   {
     "name": "Aloe Vera",
     "scientificName": "Aloe barbadensis miller",
     "nextWatering": "2025-06-18T10:15:00Z",
-    "token": "FCM_TOKEN_4"
+    "token": "FCM_TOKEN_4",
+      "imageUrl":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzRjOBEVmAhnKdOsNSmO5__f-_H7yXWaTRmVkUgB2MmChhrwCTParEpbxf3vxf6MH3SNzwQo_gLFIKXo0SwCywls4sZV-uPB2kVTcQFKfE6Q"
   },
   {
     "name": "Pothos",
     "scientificName": "Epipremnum aureum",
     "nextWatering": "2025-06-18T10:20:00Z",
-    "token": "FCM_TOKEN_5"
+    "token": "FCM_TOKEN_5",
+      "imageUrl":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzRjOBEVmAhnKdOsNSmO5__f-_H7yXWaTRmVkUgB2MmChhrwCTParEpbxf3vxf6MH3SNzwQo_gLFIKXo0SwCywls4sZV-uPB2kVTcQFKfE6Q"
   },
   {
     "name": "ZZ Plant",
     "scientificName": "Zamioculcas zamiifolia",
     "nextWatering": "2025-06-18T10:25:00Z",
-    "token": "FCM_TOKEN_6"
+    "token": "FCM_TOKEN_6",
+      "imageUrl":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzRjOBEVmAhnKdOsNSmO5__f-_H7yXWaTRmVkUgB2MmChhrwCTParEpbxf3vxf6MH3SNzwQo_gLFIKXo0SwCywls4sZV-uPB2kVTcQFKfE6Q"
   },
   {
     "name": "Rubber Plant",
     "scientificName": "Ficus elastica",
     "nextWatering": "2025-06-18T10:30:00Z",
-    "token": "FCM_TOKEN_7"
+    "token": "FCM_TOKEN_7",
+      "imageUrl":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzRjOBEVmAhnKdOsNSmO5__f-_H7yXWaTRmVkUgB2MmChhrwCTParEpbxf3vxf6MH3SNzwQo_gLFIKXo0SwCywls4sZV-uPB2kVTcQFKfE6Q"
   },
   {
     "name": "Money Plant",
     "scientificName": "Pilea peperomioides",
     "nextWatering": "2025-06-18T10:35:00Z",
-    "token": "FCM_TOKEN_8"
+    "token": "FCM_TOKEN_8",
+      "imageUrl":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzRjOBEVmAhnKdOsNSmO5__f-_H7yXWaTRmVkUgB2MmChhrwCTParEpbxf3vxf6MH3SNzwQo_gLFIKXo0SwCywls4sZV-uPB2kVTcQFKfE6Q"
   },
   {
     "name": "Boston Fern",
     "scientificName": "Nephrolepis exaltata",
     "nextWatering": "2025-06-18T10:40:00Z",
-    "token": "FCM_TOKEN_9"
+    "token": "FCM_TOKEN_9",
+      "imageUrl":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzRjOBEVmAhnKdOsNSmO5__f-_H7yXWaTRmVkUgB2MmChhrwCTParEpbxf3vxf6MH3SNzwQo_gLFIKXo0SwCywls4sZV-uPB2kVTcQFKfE6Q"
   },
   {
     "name": "Areca Palm",
     "scientificName": "Dypsis lutescens",
     "nextWatering": "2025-06-18T10:45:00Z",
-    "token": "FCM_TOKEN_10"
+    "token": "FCM_TOKEN_10",
+      "imageUrl":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzRjOBEVmAhnKdOsNSmO5__f-_H7yXWaTRmVkUgB2MmChhrwCTParEpbxf3vxf6MH3SNzwQo_gLFIKXo0SwCywls4sZV-uPB2kVTcQFKfE6Q"
   }
 ]
