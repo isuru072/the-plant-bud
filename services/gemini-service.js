@@ -14,8 +14,6 @@ export async function gemini_service(plantTitle, plantedDate) {
 
   const ai = new GoogleGenAI({ apiKey: _apiKey });
 
-  main();
-
   try {
     const response = await ai.models.generateContent({
       model: "gemini-2.5-flash",
