@@ -19,8 +19,8 @@ export async function gemini_service(plantTitle, plantedDate) {
       model: "gemini-2.5-flash",
       contents: prompt,
     });
-    console.log(response.text.candidates[0].content.parts[0].text);
-    return response.candidates[0].content.parts[0].text;
+    const text = result?.candidates?.[0]?.content?.parts?.[0]?.text || "No response";
+    return text
   } catch (e) {
     print("❌ Gemini API Error: $e");
     return null;
