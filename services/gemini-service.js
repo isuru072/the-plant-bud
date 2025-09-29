@@ -19,10 +19,10 @@ export async function gemini_service(plantTitle, plantedDate) {
       model: "gemini-2.5-flash",
       contents: prompt,
     });
-    const text = result?.candidates?.[0]?.content?.parts?.[0]?.text || "No response";
+    const text = result;
     return text
   } catch (e) {
-    console.log("❌ Gemini API Error: "+$e);
+    console.log("❌ Gemini API Error: "+e);
     return null;
   }
 }
