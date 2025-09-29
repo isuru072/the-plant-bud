@@ -20,7 +20,7 @@ export async function gemini_service(plantTitle, plantedDate) {
       contents: prompt,
     });
     console.log(response.text.candidates[0].content.parts[0].text);
-    return response.text.candidates[0].content.parts[0].text;
+    return response.candidates[0].content.parts[0].text;
   } catch (e) {
     print("❌ Gemini API Error: $e");
     return null;
