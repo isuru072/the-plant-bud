@@ -19,7 +19,7 @@ export async function gemini_service(plantTitle, plantedDate) {
       model: "gemini-2.5-flash",
       contents: prompt,
     });
-    const text = result;
+    const text = response?.candidates?.[0]?.content?.parts?.[0]?.text || "No response";
     return text
   } catch (e) {
     console.log("❌ Gemini API Error: "+e);
